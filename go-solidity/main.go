@@ -12,7 +12,7 @@ import (
 	"log"
 )
 
-//go:generate abigen --sol sol/MyToken.sol --pkg token --out token/token.go
+//go:generate abigen --sol sol/index.sol --pkg token --out token/token.go
 
 func main() {
 	// アカウント作成
