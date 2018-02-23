@@ -5,4 +5,4 @@ install:
 run: install
 	radex
 
-.PHONY: install
+.PHONY: install run
