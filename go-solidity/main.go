@@ -30,7 +30,7 @@ func main() {
 	// トークンのデプロイ
 	_, _, token, err := token.DeployMyToken(auth, conn)
 	if err != nil {
-		log.Fatal(errors.Wrap(err, "failed to get balance"))
+		log.Fatal(errors.Wrap(err, "failed to deploy contract"))
 	}
 
 	// ブロックに取り込ませる

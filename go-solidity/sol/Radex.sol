@@ -41,7 +41,7 @@ contract Radex is ContractReceiver {
   event Trade(address indexed _from, address indexed _to, uint256 indexed _orderId, uint256 _soldTokens, uint256 _boughtTokens, uint256 _time);
 
   function Radex() {
-    feeMultiplier = 1000;
+    feeMultiplier = 1;
     admin = msg.sender;
   }
 
